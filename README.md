@@ -67,7 +67,7 @@ The deployment process can be monitored under the repository's **Actions** tab. 
 | `git push origin main` | Command used to trigger the automated CI/CD pipeline after code changes. |
 ![AWS EC2 Security Group](images/push.png)
 | **Actions Tab** | Monitoring dashboard to verify the success of the `build` and `deploy` jobs. |
-![AWS EC2 Security Group](images/action1.png)
+![AWS EC2 Security Group](images/action2.png)
 
 ---
 
@@ -79,6 +79,6 @@ The deployment process can be monitored under the repository's **Actions** tab. 
 | **Live Website** | `https://aksar-srk.github.io/My-Website-Github-Pages/` |  
 ![AWS EC2 Security Group](images/output.png)
 | **GitHub Actions Log** | **Actions** tab in this repository. |
-![AWS EC2 Security Group](images/actions.png)
+![AWS EC2 Security Group](images/action.png)
 
 
