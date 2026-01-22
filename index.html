@@ -1,191 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aksar Shaik | Cloud Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aksar Shaik | Cloud & DevOps Engineer</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header>
-        <nav class="container">
-            <h1>Aksar Shaik</h1>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <button class="menu-toggle" aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-            </button>
-        </nav>
-    </header>
+<!-- ================= NAVBAR ================= -->
+<header>
+  <div class="logo">Aksar<span>.</span></div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-    <section id="about" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h2>Hello, I'm **Aksar Shaik** 👋</h2>
-                <h3>Aspiring AWS Cloud Engineer</h3>
-                <p>Highly motivated individual with hands-on experience in deploying and managing cloud-based applications through dedicated projects and self-study. Demonstrated proficiency with core AWS services, including EC2, S3, RDS, Lambda, and VPC. Skilled in Infrastructure as Code (IaC) using Terraform and CloudFormation, and focused on implementing cloud security and automation best practices. Eager to leverage this foundation to contribute to building scalable and secure cloud solutions as an AWS Cloud Engineer and continuously master emerging DevOps tools.</p>
-                <a href="#contact" class="btn primary-btn">Get In Touch</a>
-                </div>
-            <div class="hero-image">
-                <img src="images/john-cena-loyalty-respect-hustle.png" alt="Aksar Shaik Profile Picture">
-            </div>
-        </div>
-    </section>
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <h1>Cloud & DevOps Engineer</h1>
+  <p>Automating infrastructure • Building scalable cloud systems</p>
+  <a href="#projects" class="btn">View Projects</a>
+</section>
 
-    <section id="skills" class="resume-section section-padding">
-        <div class="container">
-            <h2>🛠️ Technical Skills</h2>
-            
-            <div class="skills-category">
-                <h3>Cloud Platforms</h3>
-                <div class="skills-grid">
-                    <span class="skill-tag">AWS (EC2, S3, Lambda, RDS, VPC)</span>
-                    <span class="skill-tag">IAM & Security</span>
-                    <span class="skill-tag">CloudFormation & Terraform (IaC)</span>
-                    <span class="skill-tag">API Gateway & DynamoDB</span>
-                    <span class="skill-tag">AWS AI Services (Rekognition, Polly, Bedrock)</span>
-                    <span class="skill-tag">CloudWatch</span>
-                </div>
-            </div>
+<!-- ================= ABOUT ================= -->
+<section id="about" class="section">
+  <h2>About Me</h2>
+  <p>
+    I’m <strong>Aksar Shaik</strong>, a DevOps Intern with hands-on experience in AWS,
+    CI/CD pipelines, Docker, Kubernetes, and monitoring tools.  
+    I enjoy working on production-style cloud architectures and automating workflows
+    to improve reliability, performance, and deployment speed.
+  </p>
+</section>
 
-            <div class="skills-category">
-                <h3>DevOps & Tools</h3>
-                <div class="skills-grid">
-                    <span class="skill-tag">Git & GitHub</span>
-                    <span class="skill-tag">Terraform</span>
-                    <span class="skill-tag">Ansible</span>
-                    <span class="skill-tag">Linux</span>
-                    <span class="skill-tag">VS Code</span>
-                </div>
-            </div>
+<!-- ================= EXPERIENCE ================= -->
+<section id="experience" class="section dark">
+  <h2>Experience</h2>
 
-            <div class="skills-category">
-                <h3>Programming & Databases</h3>
-                <div class="skills-grid">
-                    <span class="skill-tag">Python</span>
-                    <span class="skill-tag">Shell Scripting</span>
-                    <span class="skill-tag">MySQL & PostgreSQL</span>
-                    <span class="skill-tag">RDS (Aurora)</span>
-                    <span class="skill-tag">DynamoDB</span>
-                </div>
-            </div>
+  <div class="experience-card">
+    <h3>DevOps Intern — CloudDevOpsHub</h3>
+    <span>June 2025 – Dec 2025</span>
+    <ul>
+      <li>Supported AWS cloud infrastructure, monitoring, and incident response.</li>
+      <li>Built CI/CD pipelines using Jenkins to automate deployments.</li>
+      <li>Worked with Docker images and Kubernetes (EKS/GKE) deployments.</li>
+      <li>Created CloudWatch dashboards and alarms to improve troubleshooting.</li>
+      <li>Used Terraform and CloudFormation for infrastructure provisioning.</li>
+    </ul>
+  </div>
+</section>
 
-        </div>
-    </section>
+<!-- ================= SKILLS ================= -->
+<section id="skills" class="section">
+  <h2>Skills</h2>
+  <div class="skills-grid">
+    <span>AWS</span>
+    <span>Docker</span>
+    <span>Kubernetes</span>
+    <span>Terraform</span>
+    <span>Jenkins</span>
+    <span>GitHub Actions</span>
+    <span>Linux</span>
+    <span>Prometheus</span>
+    <span>Grafana</span>
+    <span>Python</span>
+    <span>Shell Scripting</span>
+  </div>
+</section>
 
+<!-- ================= PROJECTS ================= -->
+<section id="projects" class="section dark">
+  <h2>Projects</h2>
 
-    <section id="projects" class="projects-section section-padding">
-        <div class="container">
-            <h2>💡 Featured Projects</h2>
-            <div class="projects-grid">
-                
-                <div class="project-card">
-                    <img src="images/Architecture (1).png" alt="The Visual Wizard Image">
-                    <h3>The Visual Wizard (Image Tagging) </h3>
-                    <p>Serverless image tagging and search application using **AWS S3, Lambda, Rekognition, DynamoDB, and API Gateway**.It enables image uploads, auto-tagging, and tag-based search from an S3-hosted static frontend.</p>
-                    <div class="project-tags">
-                        <span class="tag">Serverless</span>
-                        <span class="tag">AWS Rekognition</span>
-                        <span class="tag">DynamoDB</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/Aksar-srk/AWS-Projects/tree/main/The%20Visual%20Wizard" target="_blank" aria-label="GitHub Repository"><i class="fab fa-github"></i> Code</a>
-                    </div>
-                </div>
+  <div class="project-card">
+    <h3>CI/CD Automation & Monitoring</h3>
+    <p>
+      Designed and implemented CI/CD pipelines using Jenkins to automate build,
+      test, and deployment of containerized applications.
+    </p>
+    <p class="tech">Jenkins • Docker • Kubernetes • Prometheus • Grafana</p>
+  </div>
 
-                <div class="project-card">
-                    <img src="images/three-tier-architecture.png" alt="WordPress Deployment Image">
-                    <h3>3-Tier WordPress Deployment </h3>
-                    <p>Deployed a highly available and scalable WordPress architecture using **VPC, EC2, RDS, EFS, and ALB** in a 3-tier setup.Designed with public/private subnets, a bastion host, and shared storage for high security and availability.</p>
-                    <div class="project-tags">
-                        <span class="tag">VPC Networking</span>
-                        <span class="tag">EC2 & RDS</span>
-                        <span class="tag">High Availability</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/Aksar-srk/AWS-Projects/tree/main/Three-Tier%20WordPress%20Deployment%20on%20AWS" target="_blank" aria-label="GitHub Repository"><i class="fab fa-github"></i> Code</a>
-                    </div>
-                </div>
-                
-                <div class="project-card">
-                    <img src="images/architecture (3).png" alt="The Voice Vault Image">
-                    <h3>The Voice Vault (Text-to-Audio) </h3>
-                    <p>An AWS pipeline for **Text-to-Audio Conversion** using **Amazon Polly**.The process is automated via an S3-triggered **Lambda** function that stores the final MP3 output back into S3. Configured IAM and CloudWatch for secure execution.</p>
-                    <div class="project-tags">
-                        <span class="tag">Amazon Polly</span>
-                        <span class="tag">S3 & Lambda</span>
-                        <span class="tag">Automation</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/Aksar-srk/AWS-Projects/tree/main/The%20Voice%20Vault" target="_blank" aria-label="GitHub Repository"><i class="fab fa-github"></i> Code</a>
-                    </div>
-                </div>
+  <div class="project-card">
+    <h3>AWS Three-Tier Architecture</h3>
+    <p>
+      Built a production-style three-tier architecture using EC2, ALB, RDS,
+      IAM, and VPC with public and private subnets.
+    </p>
+    <p class="tech">AWS • EC2 • ALB • RDS • IAM • VPC</p>
+  </div>
 
-            </div>
-        </div>
-    </section>
+</section>
 
-    <section id="education" class="resume-section section-padding">
-        <div class="container">
-            <h2>🎓 Education & Certification</h2>
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="section">
+  <h2>Contact</h2>
 
-            <h3>Certifications</h3>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <h4>AWS Cloud Practitioner Essentials Certificate of Completion</h4>
-                    <p class="company">Completed: 2025</p>
-                    <a href="https://drive.google.com/file/d/1D_I4_fl-NKYQVg5t9kAZVM9SmlUKY2Ju/view" target="_blank" class="secondary-btn" style="padding: 5px 10px; margin-top: 5px;">View Certificate</a>
-                </div>
-            </div>
+  <div class="contact-grid">
+    <div>
+      <strong>Email</strong>
+      <p><a href="mailto:saksar762@gmail.com">saksar762@gmail.com</a></p>
+    </div>
 
-            <h3>Academic History</h3>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <h4>M.C.A. (Master of Computer Applications) [cite_start]- 73% </h4>
-                    <p class="company">Sri Venkateshwara University, Tirupati, Andhra Pradesh</p>
-                    <p class="company">2022 - 2024 </p>
-                </div>
-                <div class="timeline-item">
-                    <h4>Bachelor of Science - 86% </h4>
-                    <p class="company">Yogi Vemana University, Rayachoty, Andhra Pradesh</p>
-                    <p class="company">2019 - 2022</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <div>
+      <strong>LinkedIn</strong>
+      <p>
+        <a href="https://www.linkedin.com/in/aksar--shaik" target="_blank">
+          linkedin.com/in/aksar--shaik
+        </a>
+      </p>
+    </div>
 
-    <section id="contact" class="contact-section section-padding">
-        <div class="container">
-            <h2>📧 Let's Connect</h2>
-            <p>I'm currently looking for new AWS and Cloud Engineering opportunities. Feel free to reach out directly!</p>
-            
-            <div class="contact-details">
-               <p><i class="fas fa-phone-alt"></i> **Phone:** <a href="tel:+919912940810">+91-9912940810</a> </p>
-               <p><i class="fas fa-envelope"></i> **Email:** <a href="mailto:saksar762@gmail.com">saksar762@gmail.com</a> </p>
-               <p><i class="fas fa-map-marker-alt"></i> **Location:** Rayachoty, Andhra Pradesh, India </p>
-            </div>
+    <div>
+      <strong>GitHub</strong>
+      <p>
+        <a href="https://github.com/Aksar-srk" target="_blank">
+          github.com/Aksar-srk
+        </a>
+      </p>
+    </div>
 
-            <div class="social-links">
-                <a href="https://github.com/Aksar-srk" target="_blank" aria-label="GitHub Profile"><i class="fab fa-github-square fa-3x"></i></a>
-                <a href="https://www.linkedin.com/in/aksar-shaik-3192b537b/" target="_blank" aria-label="LinkedIn Profile"><i class="fab fa-linkedin fa-3x"></i></a>
-            </div>
-            
-        </div>
-    </section>
+    <div>
+      <strong>Phone</strong>
+      <p>+91 99129 40810</p>
+    </div>
+  </div>
+</section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Aksar Shaik. AWS Cloud Portfolio.</p>
-        </div>
-    </footer>
+<!-- ================= FOOTER ================= -->
+<footer>
+  <p>© 2026 Aksar Shaik | Cloud & DevOps Engineer</p>
+</footer>
 
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
