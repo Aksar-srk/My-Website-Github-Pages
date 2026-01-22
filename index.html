@@ -3,16 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Aksar Shaik | Cloud & DevOps Engineer</title>
+  <title>Aksar Shaik | Junior DevOps Engineer</title>
 
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<!-- ================= NAVBAR ================= -->
 <header>
-  <div class="logo">Aksar<span>.</span></div>
+  <div class="logo">Aksar Shaik</div>
   <nav>
     <a href="#about">About</a>
     <a href="#experience">Experience</a>
@@ -22,84 +21,128 @@
   </nav>
 </header>
 
-<!-- ================= HERO ================= -->
+<!-- HERO -->
 <section class="hero">
-  <h1>Cloud & DevOps Engineer</h1>
-  <p>Automating infrastructure • Building scalable cloud systems</p>
-  <a href="#projects" class="btn">View Projects</a>
-</section>
-
-<!-- ================= ABOUT ================= -->
-<section id="about" class="section">
-  <h2>About Me</h2>
+  <h1>Aksar Shaik</h1>
   <p>
-    I’m <strong>Aksar Shaik</strong>, a DevOps Intern with hands-on experience in AWS,
-    CI/CD pipelines, Docker, Kubernetes, and monitoring tools.  
-    I enjoy working on production-style cloud architectures and automating workflows
-    to improve reliability, performance, and deployment speed.
+    Aspiring <strong>Junior DevOps Engineer</strong> focused on cloud infrastructure,
+    automation, CI/CD pipelines, and building reliable systems on AWS and GCP.
   </p>
 </section>
 
-<!-- ================= EXPERIENCE ================= -->
-<section id="experience" class="section dark">
+<!-- ABOUT -->
+<section id="about" class="section">
+  <h2>About Me</h2>
+  <p>
+    I am a DevOps Intern with hands-on experience supporting cloud infrastructure
+    and CI/CD workflows in production-like environments. My aim is to grow into a
+    <strong>Junior DevOps Engineer</strong> role where I can contribute to infrastructure
+    automation, monitoring, and continuous improvement while learning from senior engineers.
+  </p>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section soft">
   <h2>Experience</h2>
 
-  <div class="experience-card">
+  <div class="card">
     <h3>DevOps Intern — CloudDevOpsHub</h3>
-    <span>June 2025 – Dec 2025</span>
+    <span>June 2025 – December 2025</span>
     <ul>
-      <li>Supported AWS cloud infrastructure, monitoring, and incident response.</li>
-      <li>Built CI/CD pipelines using Jenkins to automate deployments.</li>
-      <li>Worked with Docker images and Kubernetes (EKS/GKE) deployments.</li>
-      <li>Created CloudWatch dashboards and alarms to improve troubleshooting.</li>
-      <li>Used Terraform and CloudFormation for infrastructure provisioning.</li>
+      <li>Supported AWS cloud operations including monitoring, health checks, and incident escalation.</li>
+      <li>Designed and maintained Jenkins CI/CD pipelines for automated build and deployment.</li>
+      <li>Implemented S3 lifecycle policies, reducing storage costs by ~25%.</li>
+      <li>Built and maintained Docker images and deployed workloads on Kubernetes (EKS/GKE).</li>
+      <li>Created CloudWatch dashboards, alarms, and log queries to reduce troubleshooting time.</li>
+      <li>Used Terraform and CloudFormation for repeatable infrastructure provisioning.</li>
+      <li>Implemented observability using Prometheus and Grafana for container metrics.</li>
     </ul>
   </div>
 </section>
 
-<!-- ================= SKILLS ================= -->
+<!-- SKILLS -->
 <section id="skills" class="section">
-  <h2>Skills</h2>
+  <h2>Technical Skills</h2>
+
+  <h4>Cloud Platforms</h4>
   <div class="skills-grid">
-    <span>AWS</span>
-    <span>Docker</span>
-    <span>Kubernetes</span>
-    <span>Terraform</span>
+    <span>AWS (EC2, VPC, IAM, S3, RDS, Lambda, EKS)</span>
+    <span>ALB / NLB</span>
+    <span>CloudWatch</span>
+    <span>CloudFormation</span>
+    <span>DynamoDB</span>
+    <span>CloudFront</span>
+    <span>ACM</span>
+    <span>SQS</span>
+    <span>GCP (Compute Engine, Cloud Run, Cloud SQL, Pub/Sub, GKE)</span>
+  </div>
+
+  <h4>DevOps & Automation</h4>
+  <div class="skills-grid">
     <span>Jenkins</span>
+    <span>AWS CodePipeline</span>
+    <span>Docker</span>
+    <span>Kubernetes (EKS / GKE)</span>
+    <span>Terraform</span>
+    <span>Ansible</span>
+    <span>Git & GitHub</span>
     <span>GitHub Actions</span>
-    <span>Linux</span>
+  </div>
+
+  <h4>Monitoring & Tools</h4>
+  <div class="skills-grid">
     <span>Prometheus</span>
     <span>Grafana</span>
+    <span>Linux</span>
+    <span>Helm</span>
+    <span>SonarQube</span>
+    <span>Trivy</span>
+    <span>VS Code</span>
+  </div>
+
+  <h4>Programming</h4>
+  <div class="skills-grid">
     <span>Python</span>
     <span>Shell Scripting</span>
+    <span>Basic Node.js</span>
   </div>
 </section>
 
-<!-- ================= PROJECTS ================= -->
-<section id="projects" class="section dark">
+<!-- PROJECTS -->
+<section id="projects" class="section soft">
   <h2>Projects</h2>
 
-  <div class="project-card">
-    <h3>CI/CD Automation & Monitoring</h3>
-    <p>
-      Designed and implemented CI/CD pipelines using Jenkins to automate build,
-      test, and deployment of containerized applications.
+  <div class="card">
+    <h3>Serverless Images Application</h3>
+    <p class="project-sub">
+      AWS Serverless • Event-Driven Architecture • Cloud-Native Design
     </p>
-    <p class="tech">Jenkins • Docker • Kubernetes • Prometheus • Grafana</p>
-  </div>
 
-  <div class="project-card">
-    <h3>AWS Three-Tier Architecture</h3>
     <p>
-      Built a production-style three-tier architecture using EC2, ALB, RDS,
-      IAM, and VPC with public and private subnets.
+      Designed and implemented a fully serverless image upload and retrieval application
+      using AWS managed services. The project focuses on scalability, security,
+      and cost-efficient architecture without managing servers.
     </p>
-    <p class="tech">AWS • EC2 • ALB • RDS • IAM • VPC</p>
-  </div>
 
+    <ul>
+      <li>Built REST APIs using <strong>Amazon API Gateway</strong> integrated with <strong>AWS Lambda</strong>.</li>
+      <li>Used <strong>Amazon S3</strong> for secure image storage with proper IAM access controls.</li>
+      <li>Implemented backend logic in Lambda to handle image upload, fetch, and metadata processing.</li>
+      <li>Configured <strong>IAM roles and policies</strong> to follow least-privilege security principles.</li>
+      <li>Designed the application to scale automatically based on demand.</li>
+      <li>Reduced operational overhead by eliminating server management.</li>
+    </ul>
+
+    <p class="project-link">
+      GitHub:
+      <a href="https://github.com/Aksar-srk/Serverless-Images-App" target="_blank">
+        github.com/Aksar-srk/Serverless-Images-App
+      </a>
+    </p>
+  </div>
 </section>
 
-<!-- ================= CONTACT ================= -->
+<!-- CONTACT -->
 <section id="contact" class="section">
   <h2>Contact</h2>
 
@@ -108,7 +151,6 @@
       <strong>Email</strong>
       <p><a href="mailto:saksar762@gmail.com">saksar762@gmail.com</a></p>
     </div>
-
     <div>
       <strong>LinkedIn</strong>
       <p>
@@ -117,16 +159,10 @@
         </a>
       </p>
     </div>
-
     <div>
       <strong>GitHub</strong>
-      <p>
-        <a href="https://github.com/Aksar-srk" target="_blank">
-          github.com/Aksar-srk
-        </a>
-      </p>
+      <p><a href="https://github.com/Aksar-srk" target="_blank">github.com/Aksar-srk</a></p>
     </div>
-
     <div>
       <strong>Phone</strong>
       <p>+91 99129 40810</p>
@@ -134,9 +170,8 @@
   </div>
 </section>
 
-<!-- ================= FOOTER ================= -->
 <footer>
-  <p>© 2026 Aksar Shaik | Cloud & DevOps Engineer</p>
+  <p>© 2026 Aksar Shaik | Junior DevOps Engineer</p>
 </footer>
 
 <script src="script.js"></script>
