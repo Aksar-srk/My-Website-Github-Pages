@@ -108,39 +108,51 @@
   </div>
 </section>
 
-<!-- PROJECTS -->
+<!-- ================= PROJECTS ================= -->
 <section id="projects" class="section soft">
   <h2>Projects</h2>
 
   <div class="card">
-    <h3>Serverless Images Application</h3>
+    <h3>CI/CD Automation and Monitoring for Containerized Application</h3>
     <p class="project-sub">
-      AWS Serverless • Event-Driven Architecture • Cloud-Native Design
+      AWS • Jenkins • Docker • Kubernetes • Prometheus • Grafana
     </p>
 
     <p>
-      Designed and implemented a fully serverless image upload and retrieval application
-      using AWS managed services. The project focuses on scalability, security,
-      and cost-efficient architecture without managing servers.
+      Designed and implemented an end-to-end CI/CD and monitoring solution for a
+      containerized application, focusing on automation, deployment reliability,
+      and observability in a production-like environment.
     </p>
 
     <ul>
-      <li>Built REST APIs using <strong>Amazon API Gateway</strong> integrated with <strong>AWS Lambda</strong>.</li>
-      <li>Used <strong>Amazon S3</strong> for secure image storage with proper IAM access controls.</li>
-      <li>Implemented backend logic in Lambda to handle image upload, fetch, and metadata processing.</li>
-      <li>Configured <strong>IAM roles and policies</strong> to follow least-privilege security principles.</li>
-      <li>Designed the application to scale automatically based on demand.</li>
-      <li>Reduced operational overhead by eliminating server management.</li>
+      <li>
+        Developed automated CI/CD pipelines using <strong>Jenkins</strong> to streamline
+        build, test, and deployment workflows for containerized applications.
+      </li>
+      <li>
+        Created <strong>Dockerfiles</strong>, built versioned Docker images, and pushed images
+        to a container registry as part of the CI/CD pipeline.
+      </li>
+      <li>
+        Deployed containerized workloads on <strong>Kubernetes (EKS/GKE)</strong> using
+        existing deployment and service configurations.
+      </li>
+      <li>
+        Implemented <strong>Prometheus</strong> to collect pod- and container-level metrics
+        for application observability.
+      </li>
+      <li>
+        Built <strong>Grafana dashboards</strong> to visualize resource utilization and
+        application performance, enabling faster issue identification.
+      </li>
+      <li>
+        Validated deployments, analyzed runtime behavior, and performed basic rollback
+        actions during failures to improve release stability.
+      </li>
     </ul>
-
-    <p class="project-link">
-      GitHub:
-      <a href="https://github.com/Aksar-srk/Serverless-Images-App" target="_blank">
-        github.com/Aksar-srk/Serverless-Images-App
-      </a>
-    </p>
   </div>
 </section>
+
 
 <!-- CONTACT -->
 <section id="contact" class="section">
@@ -177,3 +189,4 @@
 <script src="script.js"></script>
 </body>
 </html>
+
